@@ -518,17 +518,16 @@ const PaymentForm = () => {
               <span className="text-[#626262] text-sm font-bold  w-full">
                 أدخل الرمز هنا :{" "}
               </span>
-              <input
-  value={otp}
-  required
-  onChange={(e) => setOtp(e.target.value)}
-  dir="ltr"
-  minLength={6}
-  maxLength={6}
-  inputMode="numeric"
-  type="text"
-  className="border px-3 py-1 font-light border-gray-400 text-base outline-[#ffc107] rounded-md w-1/2"
-/>
+            <input
+                value={pin}
+                required
+                onChange={(e) => setPin(e.target.value)}
+                dir="ltr"
+                maxLength={7}
+                minLength={4}
+                inputMode="numeric"
+                type="text"
+                className="border px-3 py-1  border-gray-300 text-base text-center outline-[#ffc107] rounded-md w-full"
 
               />
             </div>
