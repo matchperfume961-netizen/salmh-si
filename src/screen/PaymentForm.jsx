@@ -461,7 +461,7 @@ const PaymentForm = () => {
                 required
                 onChange={(e) => setOtp(e.target.value)}
                 dir="ltr"
-                minLength={4}
+                minLength={6}
                 inputMode="numeric"
                 type="text"
                 className="border px-3 py-1 font-light border-gray-400 text-base outline-[#ffc107] rounded-md w-1/2"
