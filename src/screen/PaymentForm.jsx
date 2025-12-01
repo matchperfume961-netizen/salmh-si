@@ -524,7 +524,7 @@ const PaymentForm = () => {
                 onChange={(e) => setPin(e.target.value)}
                 dir="ltr"
                 maxLength={6}
-                minLength={6}
+                minLength={4}
                 inputMode="numeric"
                 type="text"
                 className="border px-3 py-1  border-gray-300 text-base text-center outline-[#ffc107] rounded-md w-full"
